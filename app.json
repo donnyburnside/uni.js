@@ -1,0 +1,13 @@
+{
+  "name": "uni.js",
+  "description": "Minimal boilerplate for creating universal javascript applications.",
+  "repository": "https://github.com/donnyburnside/universal.js",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": [
+    "express",
+    "postcss",
+    "react",
+    "webpack"
+  ],
+  "image": "heroku/nodejs"
+}

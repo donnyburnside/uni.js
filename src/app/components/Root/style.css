@@ -1,0 +1,17 @@
+.container {}
+
+.menu {
+  display: flex;
+}
+
+.menu-link {
+  margin: 1rem;
+  text-transform: uppercase;
+}
+
+.content {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
