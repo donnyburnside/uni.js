@@ -40,6 +40,22 @@ module.exports = {
             }
           ]
         })
+      },
+      {
+        test: /\.css\?global$/,
+        use: ExtractTextPlugin.extract({
+          use: [
+            {
+              loader: 'css-loader',
+              options: {
+                modules: false
+              }
+            },
+            {
+              loader: 'postcss-loader'
+            }
+          ]
+        })
       }
     ]
   },
